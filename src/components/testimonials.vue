@@ -54,7 +54,7 @@ export default {
   min-height: 10px;
   margin: 0 auto;
 }
-.card .pic {
+.testimonials .card .pic {
   height: 130px;
   width: 130px;
   border-radius: 5px;

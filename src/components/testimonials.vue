@@ -12,15 +12,17 @@ import $ from "jquery";
 import slick from "slick-carousel";
 export default {
   mounted() {
-    $(".testimonials").slick({
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      swipeToSlide: true,
-      dots: false,
-      centerMode: true,
-      focusOnSelect: true,
-      arrows: false
-    });
+    $(document).ready(function() {
+      $(".testimonials").slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        swipeToSlide: true,
+        dots: false,
+        centerMode: true,
+        focusOnSelect: true,
+        arrows: false
+      });
+    })
   }
 };
 </script>

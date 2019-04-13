@@ -3,7 +3,7 @@
     <div class="filter">
       <p>Collections</p>
       <ul>
-        <li v-for="i in 30">
+        <li v-for="i in 30" v-bind:key="i">
           <input type="checkbox">
           collection
         </li>

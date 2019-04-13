@@ -7,10 +7,10 @@
 
 <script>
 import navbar from "./components/nav";
-import products from "./components/products";
+
 export default {
   name: "App",
-  components: { navbar, products },
+  components: { navbar },
   methods: {}
 };
 </script>
